@@ -11,10 +11,10 @@ RSS_SOURCES = [
     "https://www.bloomberg.com/politics/feeds/site.xml",
     "https://www.reutersagency.com/feed/",
     "https://www.theguardian.com/world/rss",
-    "https://www.zaobao.com.sg/rss/realtime/china", #联合早报
+    "https://www.zaobao.com.sg/rss/realtime/china", # 联合早报
     "https://www.trendforce.com/rss/news",
-    "https://china.kyodonews.net/rss/news.xml"
-    "https://clashreport.com/rss.xml”, # 冲突报告
+    "https://china.kyodonews.net/rss/news.xml",
+    "https://clashreport.com/rss.xml", # 联合早报
 ]
 
 # 配置 Gemini
