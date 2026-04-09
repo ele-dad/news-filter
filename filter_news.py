@@ -8,14 +8,18 @@ import json
 # --- 1. 配置区 ---
 # 在这里填入你想要去重的原始 RSS 链接（比如 Bloomberg, Reuters 等）
 RSS_SOURCES = [
-    "https://www.bloomberg.com/politics/feeds/site.xml",
-    "https://www.reutersagency.com/feed/",
-    "https://www.theguardian.com/world/rss",
+    "https://www.bloomberg.com/politics/feeds/site.xml", # 彭博社政治
+    "https://www.reutersagency.com/feed/", # 路透社
+    "https://www.theguardian.com/world/rss", # 集邦咨询
     "https://www.zaobao.com.sg/rss/realtime/china", # 联合早报
-    "https://www.trendforce.com/rss/news",
-    "https://china.kyodonews.net/rss/news.xml",
+    "https://www.eurointegration.com.ua/rss/", # 欧洲真相
+    "https://china.kyodonews.net/rss/news.xml", # 共同社
     "https://clashreport.com/rss.xml", # 联合早报
-    "https://feeds.bloomberg.com/markets/news.rss", # 彭博市场
+    "https://feeds.bloomberg.com/markets/news.rss", # 彭博社市场
+    "https://clashreport.com/rss.xml", # 冲突报告
+    "https://fortune.com/feed/", # 财富
+    "https://www.aljazeera.com/xml/rss/all.xml", # 半岛电视台
+    "https://feeds.npr.org/1001/rss.xml", # NPR
 ]
 
 # 配置 Gemini
