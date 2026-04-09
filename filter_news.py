@@ -15,6 +15,7 @@ RSS_SOURCES = [
     "https://www.trendforce.com/rss/news",
     "https://china.kyodonews.net/rss/news.xml",
     "https://clashreport.com/rss.xml", # 联合早报
+    "https://feeds.bloomberg.com/markets/news.rss", # 彭博市场
 ]
 
 # 配置 Gemini
