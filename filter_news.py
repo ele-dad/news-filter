@@ -14,6 +14,7 @@ RSS_SOURCES = [
     "https://www.zaobao.com.sg/rss/realtime/china",
     "https://www.trendforce.com/rss/news",
     "https://china.kyodonews.net/rss/news.xml"
+    “https://clashreport.com/rss.xml”#冲突报告
 ]
 
 # 配置 Gemini
