@@ -74,7 +74,7 @@ def main():
                 processed_count += 1
             
             # 遵守 Gemini 免费版频率限制（每分钟15次，所以每条歇4秒）
-            time.sleep(4) 
+            time.sleep(6) 
 
     print(f"Added {processed_count} new unique stories.")
 
