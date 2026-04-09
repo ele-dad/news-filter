@@ -2,7 +2,7 @@ name: Run News Filter
 
 on:
   schedule:
-    - cron: '0 * * * *' # 每小时运行一次
+    - cron: '*/20 * * * *' # 每20"运行一次
   workflow_dispatch: # 允许手动点击运行
 
 jobs:
