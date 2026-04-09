@@ -10,7 +10,10 @@ import json
 RSS_SOURCES = [
     "https://www.bloomberg.com/politics/feeds/site.xml",
     "https://www.reutersagency.com/feed/",
-    "https://www.theguardian.com/world/rss"
+    "https://www.theguardian.com/world/rss",
+    "https://www.zaobao.com.sg/rss/realtime/china",
+    "https://www.trendforce.com/rss/news",
+    "https://china.kyodonews.net/rss/news.xml"
 ]
 
 # 配置 Gemini
