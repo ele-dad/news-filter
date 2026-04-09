@@ -10,11 +10,10 @@ import json
 RSS_SOURCES = [
     "https://www.bloomberg.com/politics/feeds/site.xml", # 彭博社政治
     "https://www.reutersagency.com/feed/", # 路透社
-    "https://www.theguardian.com/world/rss", # 集邦咨询
+    "https://www.theguardian.com/world/rss", # 卫报世界
     "https://www.zaobao.com.sg/rss/realtime/china", # 联合早报
     "https://www.eurointegration.com.ua/rss/", # 欧洲真相
     "https://china.kyodonews.net/rss/news.xml", # 共同社
-    "https://clashreport.com/rss.xml", # 联合早报
     "https://feeds.bloomberg.com/markets/news.rss", # 彭博社市场
     "https://clashreport.com/rss.xml", # 冲突报告
     "https://fortune.com/feed/", # 财富
@@ -74,7 +73,7 @@ def main():
                 processed_count += 1
             
             # 遵守 Gemini 免费版频率限制（每分钟15次，所以每条歇4秒）
-            time.sleep(6) 
+            time.sleep(8) 
 
     print(f"Added {processed_count} new unique stories.")
 
